@@ -1,0 +1,111 @@
+*{
+	
+}
+
+}
+.elemente.style.{
+
+    background-image: linear-gradient(to right, #346ee9 2%, #5b8aeb 82%);
+}
+.gradient-text1 {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #003d6b 2%, #078ef4 82%) !important;
+}
+.gradient-text1 {
+    display: flex; 
+    flex-direction: row;
+    flex-direction: column;
+    background: #3264f5;
+    background: -moz-linear-gradient(left, #3264f5 2%, #7202bb 82%);
+    background: -webkit-linear-gradient(left, #3264f5 2%,#7202bb 82%);
+    background: linear-gradient(to right, #3264f5 2%,#7202bb 82%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3264f5', endColorstr='#7202bb',GradientType=1 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.alt-font {
+    font-family: 'Poppins', sans-serif;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.d-inline-block {
+    display: inline-block!important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+    flex-direction: column;
+}
+.h4, h4 {
+    font-size: 1.5rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    flex-direction: column;
+}
+h1, h2, h3, h4, h5, h6 {
+    
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+element.style {
+    width: 360px;
+}
+.owl-carousel.owl-drag .owl-item {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-touch-callout: none;
+}
+.owl-carousel .owl-item, .owl-carousel .owl-wrapper {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Style Attribute {
+    visibility: visible;
+    animation-name: fadeInUp;
+}
+#price-slider {
+    text-align: center;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #2b2b2b;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}

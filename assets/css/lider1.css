@@ -1,0 +1,67 @@
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("assets/imagens/idoso.jpg");
+    background-size: all;
+    margin-bottom: -60px;
+    margin-top: -40px;
+}
+.textoesuqerda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+.caixatext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 220px;
+    
+}
+    .text1{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 30px;
+    margin-bottom: 30px;
+    font-family:'Helvetica',sans serif;
+    color: #1E90FF;
+    font-weight: bold;
+    font-size: 35px;
+}
+.text2{
+    text-align: center;
+    flex: 2;
+    color: #4682B4;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+   }
+   .botão{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background-color: #0067af;
+    border-radius: 5px;
+    color: white;
+    font-family:'Helvetica',sans serif;
+    text-decoration-line: none;
+   
+}
+.div{
+    width: 49%;
+    min-width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}

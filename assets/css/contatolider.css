@@ -1,0 +1,144 @@
+
+.sessao1{
+        background:url(../imagens/forms/teste.jpg);
+        background-size:cover;
+        display: all;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        color: #FFFFFF;
+}
+
+.sessao2{
+        background: url(../imagens/img_contato/fundocoroa2.png) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        font-family:'Roboto',helvetica;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+}
+.clas2{
+        margin-top: -150px;
+        display:flex;
+        width: 300px;
+        height: 300px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 100px;
+}
+.clas1 a{
+        color: white;
+        text-decoration-line: none;
+}
+.clas2 a{
+        color: white;
+        text-decoration-line: none;
+}
+.clas3 a{
+        color: white;
+        text-decoration-line: none;
+}
+.clas1{
+        display:flex;
+        width: 300px;
+        height: 300px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+.clas3{
+        display:flex;
+        width: 300px;
+        height: 300px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+.sessao3{
+
+        font-family:'Roboto',helvetica;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+}
+.mapa{
+        width: 80vw;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+
+}
+.mapa h1{
+        color: white;
+        font-family:'Roboto',helvetica;
+        font-size: 30px;
+        margin-top: -250px;
+}
+@media only screen and (min-width:670px) and (max-width:918px){
+
+        .clas2{
+                margin-top: 50px;
+        }
+        .clas3{
+                padding-bottom: 300px;
+        }
+        .clas3 p{
+                color: black;
+        }
+        .sessao3{
+                margin-top: 150px;
+        }
+        .sessao3 h1{
+                color: black;
+        }
+}
+@media(max-width: 600px){
+        .sessao2{
+                height: 160vh;
+        }
+        .mapa h1{
+                margin-bottom: -20px; 
+        }
+        .clas3{
+                margin-top:-120px;
+                margin-bottom: 160px;
+        }
+        section h1{
+                margin-top:10px;
+        }
+        .clas1{
+                margin-bottom: 60px;
+        }
+        .clas3 p{
+                color: black;
+        }
+        .sessao3 h1{
+                color: black; 
+        }
+}
+@media(min-width:320px) and (max-width:675px){
+        .sessao2{
+                height: 175vh;
+                padding-bottom: 10px;
+        }
+        .clas2 p a{
+                color: black;
+        }
+        .clas1{
+                margin-top: -60px;
+        }
+        .sessao3 h1{
+                color: black; 
+        }
+
+}

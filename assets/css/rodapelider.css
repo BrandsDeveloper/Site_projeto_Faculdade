@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    background-color: #0000CD;
+  
+}
+footer a{
+    color: #000;
+}
+
+.dentro2{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1050px;
+}
+.logo4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+        
+}
+.log4{
+    
+    width: 130px;
+    height: 125px;
+    background-image: url('../imagens/Rodape/logo.png');
+    background-size: 110px auto;
+   background-position: center;
+   background-repeat: no-repeat; 
+}
+
+.logo2{
+    width: 100px;
+    height: 100px;
+    /*background-color: lawngreen;*/
+    
+    
+}
+.logo2 img{
+ width: 150px;
+ height: auto;
+}
+
+.endereco{
+    display: flex;
+    width: 400px;
+    height: 60px;
+    /*background-color: lawngreen;*/
+}
+.loca{
+    width: 60px;
+    height: 60px;
+    /*background-color: lightcoral;*/
+    background-image: url('../imagens/Rodape/gps.png');
+    background-size: 25px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.enderetext{
+    display: flex;
+    align-items: center;
+    width: 340px;
+    height: 60px;
+    /*background-color: lightslategray;*/
+    color: #000;
+    font-size: 16px;
+
+
+}
+.tel{
+    display: flex;
+    width: 210px;
+    height: 60px;
+    /*background-color:red;*/
+}
+.fone{
+    width: 70px;
+    height: 60px;
+    /*background-color: rosybrown;*/
+    background-image: url('../imagens/Rodape/telefone.png');
+    background-size: 25px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.textfone{
+    width: 140px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: saddlebrown;*/
+    }
+ .redes3{
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     width: 150px;
+     height: 60px;
+    
+ }
+ .y{
+     width: 55;
+     height: 44px;
+     background-image: url('../imagens/imgmenu/face1.png');
+     background-size: 42px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .i{
+    width: 70;
+    height: 60px;
+    background-image: url('../imagens/imgmenu/insta5.png');
+    background-size: 80px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    }
+ .instagram{
+    width: 100px;
+    height: 100px;
+    background-image: url('../images/imgmenu/insta5.png') ;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 974px ){
+    .log4 {
+        width: 80px;
+        height: 100px;
+        background-size: 100px auto;
+    }
+
+}
+@media only screen and (max-width: 876px ){
+    .endereco {
+        width: 279px;
+    }
+    .tel {
+        width: 184px;
+    }   
+    .redes3 {
+        width: 106px;
+    }
+}
+
+@media only screen and (max-width: 775px ){
+    .dentro2{
+        width: 633px;
+    }
+    .endereco{
+        width: 227px;
+    }
+    .tel{
+        width: 162px;
+    }   
+    .redes3{
+        width: 89px;
+    }
+}
+
+@media only screen and (max-width: 593px ){
+    footer{
+        height: 300px;
+    }
+    .fones{
+        margin-bottom: 5px;
+    }
+    .dentro2{
+        width: 633px;
+        height: 300px;
+        flex-direction: column;
+    }
+    .log4 {
+        width: 97px;
+        height: 100px;
+        background-size: 121px auto;
+    }
+    .endereco{
+        width: 338px;
+    }
+    .tel{
+        width: 168px;
+    }
+    
+    .redes3{
+        width: 89px;
+    }
+    
+}
